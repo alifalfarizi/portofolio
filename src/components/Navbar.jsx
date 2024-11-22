@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-lg sticky top-0 z-50">
       <div className="relative container mx-auto flex items-center justify-between p-5">
         <div className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-600 hover:scale-105 transition-transform duration-300">
-          <a href="#home">My<span className="text-light">Portfolio</span></a>
+          <a href="#home">My<span className="text-light">Portfoli</span></a>
         </div>
 
         <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 hidden md:flex justify-center space-x-12 text-lg font-medium">
