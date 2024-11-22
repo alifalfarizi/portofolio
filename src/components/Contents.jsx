@@ -17,10 +17,10 @@ const Contents = () => {
             description: 'Create a Login Page with the PHP programming language using the Codeigniter 3 Framework and utilizing PHPMailer as email sender.',
             technologies: 'HTML, CSS, JavaScript, PHP',
             images: [
-                '../public/project-1/1-1.png',
-                '../public/project-1/1-2.png',
-                '../public/project-1/1-3.png',
-                '../public/project-1/1-4.png',
+                '/public/project-1/1-1.png',
+                '/public/project-1/1-2.png',
+                '/public/project-1/1-3.png',
+                '/public/project-1/1-4.png',
             ],
             type: 'Web App',
         },
@@ -30,14 +30,14 @@ const Contents = () => {
             description: 'Create an IFIK Landing Page display.',
             technologies: 'HTML, CSS, JavaScript, Bootstrap',
             images: [
-                '../public/project-2/2-1.png',
-                '../public/project-2/2-2.png',
-                '../public/project-2/2-3.png',
-                '../public/project-2/2-4.png',
-                '../public/project-2/2-5.png',
-                '../public/project-2/2-6.png',
-                '../public/project-2/2-7.png',
-                '../public/project-2/2-8.png',
+                '/public/project-2/2-1.png',
+                '/public/project-2/2-2.png',
+                '/public/project-2/2-3.png',
+                '/public/project-2/2-4.png',
+                '/public/project-2/2-5.png',
+                '/public/project-2/2-6.png',
+                '/public/project-2/2-7.png',
+                '/public/project-2/2-8.png',
             ],
             type: 'Web App',
         },
@@ -47,17 +47,17 @@ const Contents = () => {
             description: 'Create a Multi Step Form with images and questions dynamically on each page created by Foreach using PHP, input is available on the admin dashboard to enter questions and images for each question. After that, the rating of each question will be calculated and how many stars there are.',
             technologies: 'Codeigniter 4, MySQL, Bootstrap',
             images: [
-                '../public/project-3/3-1.png',
-                '../public/project-3/3-2.png',
-                '../public/project-3/3-3.png',
-                '../public/project-3/3-4.png',
-                '../public/project-3/3-5.png',
-                '../public/project-3/3-6.png',
-                '../public/project-3/3-7.png',
-                '../public/project-3/3-8.png',
-                '../public/project-3/3-6.png',
-                '../public/project-3/3-9.png',
-                '../public/project-3/3-10.png',
+                '/public/project-3/3-1.png',
+                '/public/project-3/3-2.png',
+                '/public/project-3/3-3.png',
+                '/public/project-3/3-4.png',
+                '/public/project-3/3-5.png',
+                '/public/project-3/3-6.png',
+                '/public/project-3/3-7.png',
+                '/public/project-3/3-8.png',
+                '/public/project-3/3-6.png',
+                '/public/project-3/3-9.png',
+                '/public/project-3/3-10.png',
             ],
             type: 'Web App',
         },
@@ -67,14 +67,14 @@ const Contents = () => {
             description: 'Create my own E-Commerce brand and aim to make it easier for customers to order products.',
             technologies: 'Codegniter 3, PostgreSQL, Bootstrap,',
             images: [
-                '../public/project-4/4-1.png',
-                '../public/project-4/4-4.png',
-                '../public/project-4/4-3.png',
-                '../public/project-4/4-4.png',
-                '../public/project-4/4-5.png',
-                '../public/project-4/4-6.png',
-                '../public/project-4/4-7.png',
-                '../public/project-4/4-8.png',
+                '/public/project-4/4-1.png',
+                '/public/project-4/4-4.png',
+                '/public/project-4/4-3.png',
+                '/public/project-4/4-4.png',
+                '/public/project-4/4-5.png',
+                '/public/project-4/4-6.png',
+                '/public/project-4/4-7.png',
+                '/public/project-4/4-8.png',
             ],
             type: 'Web App',
         },
@@ -84,10 +84,10 @@ const Contents = () => {
             description: 'Create a Landing Page with the ONIC Esport theme using HTML and CSS, manually without using bootstrap layout code.',
             technologies: 'HTML, CSS',
             images: [
-                '../public/project-5/5-1.png',
-                '../public/project-5/5-2.png',
-                '../public/project-5/5-3.png',
-                '../public/project-5/5-4.png',
+                '/public/project-5/5-1.png',
+                '/public/project-5/5-2.png',
+                '/public/project-5/5-3.png',
+                '/public/project-5/5-4.png',
             ],
             type: 'Web App',
         },
@@ -97,11 +97,11 @@ const Contents = () => {
             description: 'Creating a CMS (Content Management System) and this is a project from the DKI Jakarta provincial health service, using the Codegniter 3 framework with the HMVC method.',
             technologies: 'Codegniter 3, PostgreSQL, Bootstrap, JSON',
             images: [
-                '../public/project-6/6-1.png',
-                '../public/project-6/6-2.png',
-                '../public/project-6/6-3.png',
-                '../public/project-6/6-4.png',
-                '../public/project-6/6-5.png',
+                '/public/project-6/6-1.png',
+                '/public/project-6/6-2.png',
+                '/public/project-6/6-3.png',
+                '/public/project-6/6-4.png',
+                '/public/project-6/6-5.png',
             ],
             type: 'Web App',
         },
@@ -138,7 +138,7 @@ const Contents = () => {
                     <div className="w-full md:w-1/2 flex justify-center">
                         <img
                             className="max-w-xs sm:max-w-sm md:max-w-2xl h-auto rounded-lg shadow-lg"
-                            src="../public/picture_hero1.png"
+                            src="/public/picture_hero1.png"
                             alt="Hero"
                         />
                     </div>
@@ -188,18 +188,18 @@ const Contents = () => {
                     </p>
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 lg:gap-10 text-center">
                         {[
-                            { name: "HTML", src: "../public/svg/html-1.svg" },
-                            { name: "CSS3", src: "../public/svg/css-3.svg" },
-                            { name: "JavaScript", src: "../public/svg/javascript-1.svg" },
-                            { name: "Python", src: "../public/svg/python-5.svg" },
-                            { name: "PHP", src: "../public/svg/php.svg" },
-                            { name: "MySQL", src: "../public/svg/mysql-logo-pure.svg" },
-                            { name: "Laravel", src: "../public/svg/laravel-2.svg" },
-                            { name: "Codeigniter", src: "../public/svg/codeigniter.svg" },
-                            { name: "Debian", src: "../public/svg/debian-2.svg" },
-                            { name: "Ubuntu", src: "../public/svg/ubuntu-4.svg" },
-                            { name: "Mikrotik", src: "../public/svg/mikrotik.svg" },
-                            { name: "Cisco", src: "../public/svg/cisco-2.svg" },
+                            { name: "HTML", src: "/public/svg/html-1.svg" },
+                            { name: "CSS3", src: "/public/svg/css-3.svg" },
+                            { name: "JavaScript", src: "/public/svg/javascript-1.svg" },
+                            { name: "Python", src: "/public/svg/python-5.svg" },
+                            { name: "PHP", src: "/public/svg/php.svg" },
+                            { name: "MySQL", src: "/public/svg/mysql-logo-pure.svg" },
+                            { name: "Laravel", src: "/public/svg/laravel-2.svg" },
+                            { name: "Codeigniter", src: "/public/svg/codeigniter.svg" },
+                            { name: "Debian", src: "/public/svg/debian-2.svg" },
+                            { name: "Ubuntu", src: "/public/svg/ubuntu-4.svg" },
+                            { name: "Mikrotik", src: "/public/svg/mikrotik.svg" },
+                            { name: "Cisco", src: "/public/svg/cisco-2.svg" },
                         ].map((skill, index) => (
                             <div
                                 key={index}
@@ -237,9 +237,9 @@ const Contents = () => {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
                         {[
-                            { id: 1, company: "RC Glow7", year: "Apr 2024 - Aug 2024", position: "Graphic Design", image: "../public/logorc.png" },
-                            { id: 2, company: "PT Nexa Media Pratama", year: "May 2024 - Jul 2024", position: "Programmer", image: "../public/logonexa.png" },
-                            { id: 3, company: "FIK Telkom University", year: "Okt 2023 - Mar 2024", position: "Web Development", image: "../public/logofik.png" },
+                            { id: 1, company: "RC Glow7", year: "Apr 2024 - Aug 2024", position: "Graphic Design", image: "/public/logorc.png" },
+                            { id: 2, company: "PT Nexa Media Pratama", year: "May 2024 - Jul 2024", position: "Programmer", image: "/public/logonexa.png" },
+                            { id: 3, company: "FIK Telkom University", year: "Okt 2023 - Mar 2024", position: "Web Development", image: "/public/logofik.png" },
                         ].map((item) => (
                             <div key={item.id} className="flex flex-col items-center">
                                 <img
@@ -257,8 +257,8 @@ const Contents = () => {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         {[
-                            { id: 4, company: "Forum Komunikasi Siswa Kota Bandung", year: "Apr 2022 - Nov 2023", position: "Interest and Talent Division", image: "../public/logofokus.png" },
-                            { id: 5, company: "Organisasi Siswa Intra Sekolah", year: "Nov 2024 - Nov 2023", position: "Vice President of Student Council", image: "../public/logoosis13.png" },
+                            { id: 4, company: "Forum Komunikasi Siswa Kota Bandung", year: "Apr 2022 - Nov 2023", position: "Interest and Talent Division", image: "/public/logofokus.png" },
+                            { id: 5, company: "Organisasi Siswa Intra Sekolah", year: "Nov 2024 - Nov 2023", position: "Vice President of Student Council", image: "/public/logoosis13.png" },
                         ].map((item) => (
                             <div key={item.id} className="flex flex-col items-center">
                                 <img
