@@ -138,7 +138,7 @@ const Contents = () => {
                     <div className="w-full md:w-1/2 flex justify-center">
                         <img
                             className="max-w-xs sm:max-w-sm md:max-w-2xl h-auto rounded-lg shadow-lg"
-                            src="/public/picture_hero1.png"
+                            src="/picture_hero1.png"
                             alt="Hero"
                         />
                     </div>
